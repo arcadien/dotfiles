@@ -1,0 +1,17 @@
+# Git aliases
+alias gco="git checkout"
+alias gup='git up'
+alias gcu="git pull --rebase"
+alias gcb='for branch in `git branch | sed "s/\*//"`; do git branch -D $branch; done'
+alias gb="git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+alias gbr='git branch -r'
+alias glast='git last'
+alias glg='git lg'
+alias greset='git wipe'
+alias save="git add -A && git commit -m 'SAVEPOINT'"
+
+# Arcanist aliases
+alias adu="arc lint && arc diff --update"
+alias adc="arc lint && arc diff --create"
+alias apa="arc patch "
+
