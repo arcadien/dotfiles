@@ -1,0 +1,21 @@
+[submodule ".vim/pack/aurel/start/vim-airline"]
+	path = .vim/pack/aurel/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule ".vim/pack/aurel/start/vim-colorscemes"]
+	path = .vim/pack/aurel/start/vim-colorscemes
+	url = https://github.com/flazz/vim-colorschemes
+[submodule ".vim/pack/aurel/start/vim-clang-format"]
+	path = .vim/pack/aurel/start/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format.git
+[submodule ".vim/pack/aurel/start/anderson.git"]
+	path = .vim/pack/aurel/start/anderson.git
+	url = https://github.com/gilgigilgil/anderson.vim.git
+[submodule ".vim/pack/aurel/start/fzf"]
+	path = .vim/pack/aurel/start/fzf
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule ".vim/pack/aurel/start/vim-multiple-cursors"]
+	path = .vim/pack/aurel/start/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule ".vim/pack/aurel/start/nerdtree"]
+	path = .vim/pack/aurel/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
