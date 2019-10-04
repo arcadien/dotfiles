@@ -25,3 +25,9 @@
 [submodule ".vim/pack/aurel/start/editor-config"]
 	path = .vim/pack/aurel/start/editor-config
 	url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule ".vim/pack/aurel/start/ale"]
+	path = .vim/pack/aurel/start/ale
+	url = git@github.com:dense-analysis/ale.git
+[submodule ".tools/bash-git-prompt"]
+	path = .tools/bash-git-prompt
+	url = git@github.com:magicmonty/bash-git-prompt.git
