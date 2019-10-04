@@ -9,6 +9,8 @@ if [ -f ~/.aliases ]; then
   source ~/.aliases
 fi
 
+source ~/.tools/bash-git-prompt/gitprompt.sh
+
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
      . /etc/bash_completion
 
