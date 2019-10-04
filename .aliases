@@ -11,3 +11,5 @@ alias adu="arc lint && arc diff --update"
 alias adc="arc lint && arc diff --create"
 alias apa="arc patch "
 
+alias ls="ls --color"
+alias ll="ls -lart"
