@@ -22,3 +22,6 @@
 [submodule ".tools/diff-so-fancy"]
 	path = .tools/diff-so-fancy
 	url = git@github.com:so-fancy/diff-so-fancy.git
+[submodule ".vim/pack/aurel/start/editor-config"]
+	path = .vim/pack/aurel/start/editor-config
+	url = git@github.com:editorconfig/editorconfig-vim.git
