@@ -7,9 +7,6 @@
 [submodule ".vim/pack/aurel/start/vim-clang-format"]
 	path = .vim/pack/aurel/start/vim-clang-format
 	url = https://github.com/rhysd/vim-clang-format.git
-[submodule ".vim/pack/aurel/start/anderson.git"]
-	path = .vim/pack/aurel/start/anderson.git
-	url = https://github.com/gilgigilgil/anderson.vim.git
 [submodule ".vim/pack/aurel/start/fzf"]
 	path = .vim/pack/aurel/start/fzf
 	url = https://github.com/junegunn/fzf.vim.git
@@ -22,12 +19,12 @@
 [submodule ".tools/diff-so-fancy"]
 	path = .tools/diff-so-fancy
 	url = git@github.com:so-fancy/diff-so-fancy.git
-[submodule ".vim/pack/aurel/start/editor-config"]
-	path = .vim/pack/aurel/start/editor-config
-	url = git@github.com:editorconfig/editorconfig-vim.git
 [submodule ".vim/pack/aurel/start/ale"]
 	path = .vim/pack/aurel/start/ale
 	url = git@github.com:dense-analysis/ale.git
 [submodule ".tools/bash-git-prompt"]
 	path = .tools/bash-git-prompt
 	url = git@github.com:magicmonty/bash-git-prompt.git
+[submodule ".vim/pack/aurel/start/anderson"]
+	path = .vim/pack/aurel/start/anderson
+	url = https://github.com/gilgigilgil/anderson.vim.git
