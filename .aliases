@@ -13,3 +13,7 @@ alias apa="arc patch "
 
 alias ls="ls --color"
 alias ll="ls -lart"
+
+alias sagent="eval `ssh-agent`"
+alias sadd="ssh-add"
+alias slist="ssh-add -l"
