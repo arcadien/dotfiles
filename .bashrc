@@ -27,3 +27,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
   done
 
 fi
+export LS_COLORS="~/.ls_colors"
+eval `dircolors ~/.ls_colors`
+
