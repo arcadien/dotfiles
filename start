@@ -1,3 +1,3 @@
 #!/bin/bash
 
-for file in .aliases .bash_gitprompt .bashrc .git_aliases .gitconfig .gitmodules .ls_colors .tools .vim; do ln -s $HOME/dotfiles/$file $HOME; done
+for file in .vimrc .aliases .bash_gitprompt .bashrc .git_aliases .gitconfig .gitmodules .ls_colors .tools .vim; do ln -s $HOME/dotfiles/$file $HOME; done
