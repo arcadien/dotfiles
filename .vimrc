@@ -3,6 +3,7 @@ set noswapfile
 set expandtab
 set tabstop=2
 set sw=2
+set number
 
 map <C-o> :NERDTreeToggle<CR>
 map <C-b> :!(cd build && make -j4 && ctest)
