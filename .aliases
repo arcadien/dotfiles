@@ -18,4 +18,6 @@ alias sagent="eval `ssh-agent`"
 alias sadd="ssh-add"
 alias slist="ssh-add -l"
 
-source ${HOME}/.aliases.local
+if [ -e ${HOME}/.aliases.local ]; then
+  source ${HOME}/.aliases.local
+fi
