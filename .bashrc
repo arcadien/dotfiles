@@ -31,7 +31,7 @@ fi
 export LS_COLORS="~/.ls_colors"
 eval `dircolors ~/.ls_colors`
 
-if [ -e .bashrc.local ]; then
-  source .bashrc.local
+if [ -e /home/$USER/.bashrc.local ]; then
+  source /home/$USER/.bashrc.local
 fi
 
