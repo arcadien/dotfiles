@@ -20,7 +20,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
        return $?
    }
 
-  for al in `__git_aliases`; do
+  for al in `git --list-cmds=alias`; do
       alias g$al="git $al"
 
       complete_func=_git_$(__git_aliased_command $al)
